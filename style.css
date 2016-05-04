@@ -9,6 +9,23 @@ body {
   margin: 0 auto;
 }
 
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: white;
+  background: red;
+  opacity: .9;
+}
+
+li {
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+}
+
 .mosaic {
   display: flex;
 
