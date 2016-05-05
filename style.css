@@ -25,6 +25,10 @@ button {
   border-radius: 2px;
 }
 
+iframe {
+  width: 50%;
+}
+
 nav {
   position: fixed;
   top: 0;
