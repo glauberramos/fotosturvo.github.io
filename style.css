@@ -40,6 +40,7 @@ ul {
 
 .mosaic {
   display: flex;
+  cursor: pointer;
 
   flex-wrap: wrap;
 }
