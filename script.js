@@ -10,4 +10,8 @@ $(function() {
         window.location.hash = session;
     });
   });
+
+  $("div.lazy").lazyload({
+    effect : "fadeIn"
+  });
 });
