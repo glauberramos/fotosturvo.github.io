@@ -2,7 +2,7 @@ $(function() {
   $("nav a:not(.button)").click(function(event) {
     event.preventDefault(event);
     var session = $(this).attr('href');
-    var sessionPosition = $(session).offset().top - 30;
+    var sessionPosition = $(session).offset().top - 40;
 
     console.log(sessionPosition);
 
