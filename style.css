@@ -88,6 +88,7 @@ h2 {
   margin-bottom: 7px;
   font-size: 22px;
   color: #777;
+  text-transform: uppercase;
   flex-basis: 100%;
 }
 
@@ -96,9 +97,12 @@ h2 {
 }
 
 .double-height {
-  height: 260px;
-  -webkit-background-size: 700px;
-          background-size: 700px;
+  height: 300px;
+}
+
+.lg-3 .img.double-height {
+  -webkit-background-size: 600px;
+          background-size: 600px;
 }
 
 @media (min-width: 768px) {
