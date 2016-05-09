@@ -1,5 +1,5 @@
 $(function() {
-  $("nav a").click(function(event) {
+  $("nav a:not(.button)").click(function(event) {
     event.preventDefault(event);
     var session = $(this).attr('href');
     var sessionPosition = $(session).offset().top - 30;

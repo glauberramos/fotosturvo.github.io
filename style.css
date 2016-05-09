@@ -12,7 +12,7 @@ body {
   margin: 0 auto;
 }
 
-button {
+.button {
   float: right;
   padding: 5px 7px;
   margin-left: 10px;
