@@ -96,7 +96,9 @@ h2 {
 }
 
 .double-height {
-  height: 400px;
+  height: 260px;
+  -webkit-background-size: 700px;
+          background-size: 700px;
 }
 
 @media (min-width: 768px) {
