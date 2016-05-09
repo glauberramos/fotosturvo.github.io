@@ -96,15 +96,6 @@ h2 {
   transform: scale(1.05);
 }
 
-.double-height {
-  height: 300px;
-}
-
-.lg-3 .img.double-height {
-  -webkit-background-size: 600px;
-          background-size: 600px;
-}
-
 @media (min-width: 768px) {
   .lg-1 {
     flex-basis: 16.666%;
@@ -139,5 +130,14 @@ h2 {
   .lg-6 .img {
     -webkit-background-size: 1000px;
             background-size: 1000px;
+  }
+
+  .double-height {
+    height: 300px;
+  }
+
+  .lg-3 .img.double-height {
+    -webkit-background-size: 600px;
+            background-size: 600px;
   }
 }
