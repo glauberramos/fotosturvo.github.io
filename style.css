@@ -51,14 +51,6 @@ nav {
   background: white;
 }
 
-nav a {
-  margin-right: 15px;
-  font-weight: bold;
-  color: #333;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
 li {
   display: inline-block;
 }
