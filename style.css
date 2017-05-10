@@ -8,9 +8,10 @@ body {
 }
 
 .container {
-  max: 95%;
-  margin: 0 auto;
   max-width: 1500px;
+  margin: 0 auto;
+
+  max: 95%;
 }
 
 .button {
@@ -33,7 +34,9 @@ p {
   color: #cacaca;
 }
 
-p a, p a:visited, p a:active {
+p a,
+p a:visited,
+p a:active {
   color: #cacaca;
 }
 
@@ -64,7 +67,6 @@ ul {
 
 .mosaic {
   display: flex;
-
   flex-wrap: wrap;
 }
 
@@ -72,7 +74,7 @@ ul {
   overflow: hidden;
   cursor: pointer;
   flex-basis: 33.333%;
-  transition: all .2s;
+  transition: all 0.2s;
 }
 
 .img {
@@ -81,9 +83,9 @@ ul {
   background-position: center;
   -webkit-background-size: 350px;
           background-size: 350px;
-  -webkit-transition: -webkit-transform .3s ease;
-          transition:     -ms-transform .3s ease;
-          transition:         transform .3s ease;
+  -webkit-transition: -webkit-transform 0.3s ease;
+          transition:     -ms-transform 0.3s ease;
+          transition:         transform 0.3s ease;
 }
 
 h2 {
@@ -145,4 +147,336 @@ h2 {
     -webkit-background-size: 600px;
             background-size: 600px;
   }
+}
+
+.img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-1.jpg);
+}
+
+.mosaic-item:nth-of-type(2) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-2.jpg);
+}
+
+.mosaic-item:nth-of-type(3) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-3.jpg);
+}
+
+.mosaic-item:nth-of-type(4) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-4.jpg);
+}
+
+.mosaic-item:nth-of-type(5) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-5.jpg);
+}
+
+.mosaic-item:nth-of-type(6) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-6.jpg);
+}
+
+.mosaic-item:nth-of-type(7) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-7.jpg);
+}
+
+.mosaic-item:nth-of-type(8) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-8.jpg);
+}
+
+.mosaic-item:nth-of-type(9) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-9.jpg);
+}
+
+.mosaic-item:nth-of-type(10) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-10.jpg);
+}
+
+.mosaic-item:nth-of-type(11) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-11.jpg);
+}
+
+.mosaic-item:nth-of-type(12) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-12.jpg);
+}
+
+.mosaic-item:nth-of-type(13) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-13.jpg);
+}
+
+.mosaic-item:nth-of-type(14) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-14.jpg);
+}
+
+.mosaic-item:nth-of-type(15) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-15.jpg);
+}
+
+.mosaic-item:nth-of-type(16) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-16.jpg);
+}
+
+.mosaic-item:nth-of-type(17) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-17.jpg);
+}
+
+.mosaic-item:nth-of-type(18) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-18.jpg);
+}
+
+.mosaic-item:nth-of-type(19) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-19.jpg);
+}
+
+.mosaic-item:nth-of-type(20) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-20.jpg);
+}
+
+.mosaic-item:nth-of-type(21) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-21.jpg);
+}
+
+.mosaic-item:nth-of-type(22) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-22.jpg);
+}
+
+.mosaic-item:nth-of-type(23) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-23.jpg);
+}
+
+.mosaic-item:nth-of-type(24) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-24.jpg);
+}
+
+.mosaic-item:nth-of-type(25) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-25.jpg);
+}
+
+.mosaic-item:nth-of-type(26) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-26.jpg);
+}
+
+.mosaic-item:nth-of-type(27) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-27.jpg);
+}
+
+.mosaic-item:nth-of-type(28) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-28.jpg);
+}
+
+.mosaic-item:nth-of-type(29) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-29.jpg);
+}
+
+.mosaic-item:nth-of-type(30) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-30.jpg);
+}
+
+.mosaic-item:nth-of-type(31) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-31.jpg);
+}
+
+.mosaic-item:nth-of-type(32) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-32.jpg);
+}
+
+.mosaic-item:nth-of-type(33) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-33.jpg);
+}
+
+.mosaic-item:nth-of-type(34) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-34.jpg);
+}
+
+.mosaic-item:nth-of-type(35) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-35.jpg);
+}
+
+.mosaic-item:nth-of-type(36) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-36.jpg);
+}
+
+.mosaic-item:nth-of-type(37) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-37.jpg);
+}
+
+.mosaic-item:nth-of-type(38) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-38.jpg);
+}
+
+.mosaic-item:nth-of-type(39) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-39.jpg);
+}
+
+.mosaic-item:nth-of-type(40) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-40.jpg);
+}
+
+.mosaic-item:nth-of-type(41) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-41.jpg);
+}
+
+.mosaic-item:nth-of-type(42) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-42.jpg);
+}
+
+.mosaic-item:nth-of-type(43) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-43.jpg);
+}
+
+.mosaic-item:nth-of-type(44) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-44.jpg);
+}
+
+.mosaic-item:nth-of-type(45) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-45.jpg);
+}
+
+.mosaic-item:nth-of-type(46) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-46.jpg);
+}
+
+.mosaic-item:nth-of-type(47) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-47.jpg);
+}
+
+.mosaic-item:nth-of-type(48) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-48.jpg);
+}
+
+.mosaic-item:nth-of-type(49) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-49.jpg);
+}
+
+.mosaic-item:nth-of-type(50) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-50.jpg);
+}
+
+.mosaic-item:nth-of-type(51) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-51.jpg);
+}
+
+.mosaic-item:nth-of-type(52) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-52.jpg);
+}
+
+.mosaic-item:nth-of-type(53) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-53.jpg);
+}
+
+.mosaic-item:nth-of-type(54) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-54.jpg);
+}
+
+.mosaic-item:nth-of-type(55) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-55.jpg);
+}
+
+.mosaic-item:nth-of-type(56) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-56.jpg);
+}
+
+.mosaic-item:nth-of-type(57) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-57.jpg);
+}
+
+.mosaic-item:nth-of-type(58) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-58.jpg);
+}
+
+.mosaic-item:nth-of-type(59) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-59.jpg);
+}
+
+.mosaic-item:nth-of-type(60) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-60.jpg);
+}
+
+.mosaic-item:nth-of-type(61) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-61.jpg);
+}
+
+.mosaic-item:nth-of-type(62) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-62.jpg);
+}
+
+.mosaic-item:nth-of-type(63) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-63.jpg);
+}
+
+.mosaic-item:nth-of-type(64) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-64.jpg);
+}
+
+.mosaic-item:nth-of-type(65) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-65.jpg);
+}
+
+.mosaic-item:nth-of-type(66) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-66.jpg);
+}
+
+.mosaic-item:nth-of-type(67) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-67.jpg);
+}
+
+.mosaic-item:nth-of-type(68) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-68.jpg);
+}
+
+.mosaic-item:nth-of-type(69) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-69.jpg);
+}
+
+.mosaic-item:nth-of-type(70) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-70.jpg);
+}
+
+.mosaic-item:nth-of-type(71) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-71.jpg);
+}
+
+.mosaic-item:nth-of-type(72) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-72.jpg);
+}
+
+.mosaic-item:nth-of-type(73) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-73.jpg);
+}
+
+.mosaic-item:nth-of-type(74) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-74.jpg);
+}
+
+.mosaic-item:nth-of-type(75) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-75.jpg);
+}
+
+.mosaic-item:nth-of-type(76) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-76.jpg);
+}
+
+.mosaic-item:nth-of-type(77) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-77.jpg);
+}
+
+.mosaic-item:nth-of-type(78) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-78.jpg);
+}
+
+.mosaic-item:nth-of-type(79) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-79.jpg);
+}
+
+.mosaic-item:nth-of-type(80) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-80.jpg);
+}
+
+.mosaic-item:nth-of-type(81) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-81.jpg);
+}
+
+.mosaic-item:nth-of-type(82) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-82.jpg);
+}
+
+.mosaic-item:nth-of-type(83) .img.loaded {
+  background-image: url(https://s3-sa-east-1.amazonaws.com/saochico/tainhas-83.jpg);
 }
