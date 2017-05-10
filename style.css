@@ -12,6 +12,13 @@ body {
   margin: 0 1%;
 }
 
+h1 {
+  margin-top: 10px;
+  font-size: 1.9em;
+  font-weight: bold;
+  color: #8bc34a;
+}
+
 .button {
   float: right;
   padding: 5px 7px;
@@ -27,6 +34,7 @@ body {
 }
 
 p {
+  max-width: 75%;
   margin: 0 10px;
   margin-bottom: 30px;
   line-height: 1.5em;
