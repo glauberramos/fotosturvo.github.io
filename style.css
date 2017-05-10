@@ -27,8 +27,9 @@ body {
 }
 
 p {
-  margin: 0;
-  margin-top: 40px;
+  margin: 0 10px;
+  margin-bottom: 30px;
+  line-height: 1.5em;
   color: #cacaca;
 }
 
@@ -87,18 +88,12 @@ ul {
     flex-basis: 100%;
   }
 
-  .lg-4 .img {
-    -webkit-background-size: 800px;
-            background-size: 800px;
-  }
-
   .lg-6 .img {
-    -webkit-background-size: 1000px;
-            background-size: 1000px;
+    height: 700px;
   }
 
   .double-height {
-    height: 400px;
+    height: 410px;
   }
 }
 
