@@ -13,7 +13,7 @@ function lazyLoad() {
   wscroll = $(window).scrollTop();
 
   for (i = 0; i < arrayTopPositions.length; i++) {
-    if (arrayTopPositions[i] <= wscroll + (wh - 200)) {
+    if (arrayTopPositions[i] <= wscroll + (wh)) {
       $('div.img').eq(i).addClass('loaded');
     }
   }
