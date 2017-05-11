@@ -43,6 +43,12 @@ p {
   color: white;
 }
 
+@media (max-width: 768px) {
+  p {
+    max-width: 100%;
+  }
+}
+
 p a,
 p a:visited,
 p a:active {
@@ -52,6 +58,12 @@ p a:active {
 iframe {
   float: left;
   width: 50%;
+}
+
+@media (max-width: 768px) {
+  iframe {
+    width: 100%;
+  }
 }
 
 li {
