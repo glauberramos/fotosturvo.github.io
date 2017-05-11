@@ -50,6 +50,7 @@ p a:active {
 }
 
 iframe {
+  float: left;
   width: 50%;
 }
 
